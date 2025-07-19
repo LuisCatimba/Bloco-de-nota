@@ -37,10 +37,11 @@
 .semNotas button {
   padding: 8px 15px;
   background-color: white;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 400;
   color: #000;
   outline: none;
   border: none;
   cursor: pointer;
+  border-radius: 5px;
 }
