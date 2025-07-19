@@ -1,0 +1,46 @@
+.containerNotas {
+  width: 100%;
+  margin-bottom: 70px;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 15px;
+}
+
+.containerNotas .notas {
+  display: grid;
+  grid-template-columns: 450px 450px;
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+  .containerNotas .notas {
+    grid-template-columns: 80vw;
+  }
+}
+
+.semNotas {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.semNotas button {
+  padding: 8px 15px;
+  background-color: white;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #000;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

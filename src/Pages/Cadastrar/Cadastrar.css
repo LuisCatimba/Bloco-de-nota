@@ -1,0 +1,71 @@
+.containerForm {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 300px;
+  max-width: 90vw;
+  margin: auto;
+  text-align: center;
+  background-color: #242424;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.form form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+
+label span {
+  font-size: 1.2em;
+}
+
+label input,
+label textarea,
+label select {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
+  border-radius: 5px;
+  color: #000;
+}
+
+label textarea {
+  height: 100px;
+  resize: none;
+  padding-top: 10px;
+  padding-right: 5px;
+}
+
+form button {
+  width: 100px;
+  height: 40px;
+  color: #000;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}

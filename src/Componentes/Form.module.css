@@ -1,0 +1,27 @@
+.form {
+  width: 200px;
+  height: 35px;
+  background-color: #242424;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.form input {
+  width: 150px;
+  max-width: 100%;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #242424;
+}
+
+@media screen and (max-width: 720px) {
+  .form {
+    margin-left: 10px;
+  }
+}
